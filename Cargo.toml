@@ -1,0 +1,15 @@
+[package]
+name = "focus_back_and_forth"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "daemon"
+path = "src/daemon/main.rs"
+
+[[bin]]
+name = "client"
+path = "src/client/main.rs"
+
+[dependencies]
+swayipc = "2.4.1"
