@@ -4,8 +4,8 @@ version = "0.1.0"
 edition = "2021"
 
 [[bin]]
-name = "daemon"
-path = "src/daemon/main.rs"
+name = "server"
+path = "src/server/main.rs"
 
 [[bin]]
 name = "client"
